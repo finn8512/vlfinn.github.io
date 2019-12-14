@@ -1,0 +1,59 @@
+
+.logo {
+    -webkit-animation: logo 5s;
+    animation: logo 5s;
+}
+
+
+@-webkit-keyframes logo {
+  from {
+    -webkit-transform: rotate(0) scale(.5);
+    left: 120%;
+  }
+  50% {
+    -webkit-transform: rotate(-720deg) scale(.5);
+    left: 0;
+  }
+
+  to {
+    -webkit-transform: rotate(0) scale(1);
+  }
+}
+@keyframes logo {
+  from {
+    transform: rotate(0) scale(.5);
+    left: 120%
+  }
+
+  50% {
+    transform: rotate(-720deg) scale(.5);
+    left: 0;
+  }
+
+  to {
+    transform: rotate(0) scale(1);
+  }
+}
+
+
+.jumbotron {
+    -webkit-animation: jumbotron 0.5s;
+    animation: jumbotron 0.4s;
+}
+
+
+@keyframes jumbotron {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(200px);
+    -ms-transform: translateY(200px);
+    transform: translateY(200px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}

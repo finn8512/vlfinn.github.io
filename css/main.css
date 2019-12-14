@@ -1,0 +1,105 @@
+
+
+body {
+	font-family: ;
+	color: ;
+	margin-left: 20px;
+	
+	padding-right: 20px;
+	background-color: grey;
+
+}
+
+.jumbotron {
+	margin-top: 150px;
+	border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+
+}
+
+.ht {
+	padding-top: 10px;
+	margin-left: 35%;
+
+}
+
+span h1 li {
+	padding-left: 10px;
+	border-left: solid 6px #c50000;
+	
+}
+li {
+	padding-bottom: 5px;
+	list-style: none;
+}
+
+
+h1 {
+  font-size: 1em;
+  padding-left: 0px;
+  
+
+}
+
+header {
+	position: absolute; 
+	top: 0;
+	left: 0;
+	right: 0;
+
+}
+
+.services:before {
+    position: absolute;
+    display: block;
+    width: 218px;
+    height: 259px;
+    content: '';
+    background: url(../image/border-left.png) no-repeat;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+.services:after {
+    position: absolute;
+    display: block;
+    width: 218px;
+    height: 259px;
+    content: '';
+    background: url(../image/border-right.png) no-repeat;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    
+}
+
+footer {
+	position: absolute; 
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.logo {
+	margin-left: 6%;
+	padding-top:10px ;
+	padding-bottom: 10px ;
+	position: absolute;
+	z-index: 100;
+}
+		
+.fa:hover {
+	color:#c50000;
+
+}
+
+li:hover {
+	color:#c50000;
+}
+
+ a:hover {
+	color:#c50000;
+}
